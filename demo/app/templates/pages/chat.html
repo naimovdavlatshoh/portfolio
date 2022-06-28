@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Home {% endblock %}
+
+{% block content %}
+<h1 class="px-4 text-ocean">Chat</h1>
+<div class=" d-flex gap-1 px-4">
+    <!-- leftsidebar -->
+    <div class="leftsidebar w-30 bg-light shadow-2  flex-wrap">
+       <input type="text" class="input" placeholder=" Search..." >
+       <ul class="allusers w-100">
+           <li class="users p-3 shadow-1 d-flex gap-1 "> <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt=""> aaaaaaaa</li>
+           <li class="users p-3 shadow-1 d-flex gap-1 "> <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt=""> aaaaaaaa</li>
+           <li class="users p-3 shadow-1 d-flex gap-1 "> <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt=""> aaaaaaaa</li>
+           <li class="users p-3 shadow-1 d-flex gap-1 "> <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt=""> aaaaaaaa</li>
+           <li class="users p-3 shadow-1 d-flex gap-1 "> <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt=""> aaaaaaaa</li>
+           <li class="users p-3 shadow-1 d-flex gap-1 "> <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt=""> aaaaaaaa</li>
+           <li class="users p-3 shadow-1 d-flex gap-1 "> <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt=""> aaaaaaaa</li>
+           <li class="users p-3 shadow-1 d-flex gap-1 "> <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt=""> aaaaaaaa</li>
+           <li class="users p-3 shadow-1 d-flex gap-1 "> <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt=""> aaaaaaaa</li>
+           <li class="users p-3 shadow-1 d-flex gap-1 "> <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt=""> aaaaaaaa</li>
+       </ul>
+       <style>
+           
+       </style>
+    </div>
+        <!-- rightsidebar -->
+    <div class="rightsidebar w-70 bg-light shadow-2">
+        <div class="header w-100  px-4">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-1">
+                    <img class="imgavatar" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt="">
+                    <p class="fs-20">aaaaaaaaaaa</p>
+                </div>
+                <div class="d-flex gap-1">
+                    <a class="text-night" href=""><i class="icons fas fa-search fs-20"></i></a>
+                    <a class="text-night" href=""><i class="icons fas fa-cog fs-20"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="chat bg-light w-100 px-4 py-4 ">
+            <div class="p-2 d-flex align-items-center gap-1">
+                <img class="imgchat" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt="">
+                <div class="w-50 bg-ocean rounded-1 p-3 text-light ">Assalom aleykum </div>
+            </div>
+            <div class="p-2 d-flex align-items-center  gap-1">
+                <div class="w-50 bg-night rounded-1 p-3 ml-auto text-light">Vaaleykum assalom  </div>
+                <img class="imgchat" src="https://makeavatarnow.com/wp-content/uploads/2021/04/avatar-maker-1-360x360.png" alt="">
+            </div>
+        </div>
+        <div class="sendmessage px-4">
+            <form action="" class="d-flex">
+                <input type="text" placeholder="Typing message..." class="input">
+                <button class="btnicons "> <i class='bx bx-sm bx-smile' ></i> </button>
+                <button class="btnicons "> <i class='bx bx-sm bx-paperclip'></i> </button>
+                <button class="btn-blue rounded-1 px-3 d-flex align-items-center " >send<i class="mx-1 far fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
