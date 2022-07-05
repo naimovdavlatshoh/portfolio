@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['davlatshoh001.pythonanywhere.com']
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -52,6 +53,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'demo.urls'
+
+
 
 TEMPLATES = [
     {
